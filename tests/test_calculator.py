@@ -16,7 +16,8 @@ from src.validator import (
     validate_positive,
     validate_non_negative,
     validate_integer
-) 
+)
+
 
 def test_add():
     assert add(2, 3) == 5
